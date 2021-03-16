@@ -22,7 +22,7 @@ def out_video():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
-    # cap.release()
+    cap.release()
     stream.release()
     cv2.destroyAllWindows()
 
